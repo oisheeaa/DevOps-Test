@@ -5,4 +5,4 @@ Resources:
   SampleResource:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub "${Environment}-proton-bucket"
+      BucketName: proton-poc-devops
