@@ -1,0 +1,7 @@
+type: object
+required:
+  - environment
+properties:
+  environment:
+    type: string
+    description: devops
