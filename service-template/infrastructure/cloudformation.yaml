@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Sample CFN for Proton PoC
+
+Resources:
+  SampleResource:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${Environment}-proton-bucket"
